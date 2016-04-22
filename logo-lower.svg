@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="164px" height="123px" viewBox="-13.645 -10.289 164 123" enable-background="new -13.645 -10.289 164 123"
+	 xml:space="preserve">
+<filter  id="glow">
+	<feGaussianBlur  result="blur" stdDeviation="10"></feGaussianBlur>
+	<feMerge>
+		<feMergeNode  in="blur"></feMergeNode>
+		<feMergeNode  in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+	<path filter="url(#glow)" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M0.833,22.772C17.563,35.196,33.387,47.3,49.589,58.876
+		c14.373,10.266,33.64,7.482,43.915-5.57c2.848-3.617,4.113-6.143-0.938-9.26c-6.19-3.822-11.672-8.779-17.696-12.893
+		c-3.726-2.541-4.863-4.629-1.572-8.564C78.33,16.567,82.961,10.19,87.52,3.786c2.512-3.529,4.32-4.57,8.375-1.355
+		c11.666,9.256,23.781,17.949,35.766,26.799c3.111,2.297,4.988,4.631,4.377,9.076c-3.918,28.457-18.492,48.818-45.895,58.133
+		C63.12,105.628,38.895,99.21,19.038,78.81C4.255,63.618-0.941,44.7,0.833,22.772z"/>
+</svg>

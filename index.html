@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sean Han</title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="Sean Han" content="Personal Website">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#000000">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#000000">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <!-- Your styles -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<body style="background-color: black;">
+    <img class="logo" src="../Home/logo-vector.svg">
+
+    <svg version="1.1" class="logo-upper" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    	 width="164px" height="123px" viewBox="-13.645 -10.289 164 123" enable-background="new -13.645 -10.289 164 123"
+    	 xml:space="preserve">
+    	<filter  id="glow">
+    		<feGaussianBlur  result="blur" stdDeviation="0"></feGaussianBlur>
+    		<feMerge>
+    			<feMergeNode  in="blur"></feMergeNode>
+    			<feMergeNode  in="SourceGraphic"></feMergeNode>
+    		</feMerge>
+    	</filter>
+    	<path filter="url(#glow)" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M135.943,78.531c-13.391-10.062-25.588-19.428-38.014-28.481c-6.979-5.088-13.271-11.357-22.246-13.273
+    		c-12.676-2.709-23.267,0.846-32.139,10.051c-3.801,3.943-4.383,7.179,1.022,10.73c7.041,4.62,13.429,10.229,20.328,15.077
+    		c3.213,2.259,3.969,3.785,1.154,7.14c-5.416,6.459-10.42,13.276-15.354,20.119c-2.452,3.399-4.264,3.063-7.399,0.614
+    		c-12.633-9.854-25.437-19.5-38.389-28.928c-3.675-2.676-4.863-5.389-4.246-9.93C5.095,29.037,27.722,5.639,59.534,1.141
+    		c30-4.242,59.125,12.885,71.547,42.292C135.534,53.974,136.288,65.183,135.943,78.531z"/>
+    </svg>
+
+    <svg version="1.1" class="logo-lower" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    	 width="164px" height="123px" viewBox="-13.645 -10.289 164 123" enable-background="new -13.645 -10.289 164 123"
+    	 xml:space="preserve">
+    <filter  id="glow">
+    	<feGaussianBlur  result="blur" stdDeviation="0"></feGaussianBlur>
+    	<feMerge>
+    		<feMergeNode  in="blur"></feMergeNode>
+    		<feMergeNode  in="SourceGraphic"></feMergeNode>
+    	</feMerge>
+    </filter>
+    	<path filter="url(#glow)" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M0.833,22.772C17.563,35.196,33.387,47.3,49.589,58.876
+    		c14.373,10.266,33.64,7.482,43.915-5.57c2.848-3.617,4.113-6.143-0.938-9.26c-6.19-3.822-11.672-8.779-17.696-12.893
+    		c-3.726-2.541-4.863-4.629-1.572-8.564C78.33,16.567,82.961,10.19,87.52,3.786c2.512-3.529,4.32-4.57,8.375-1.355
+    		c11.666,9.256,23.781,17.949,35.766,26.799c3.111,2.297,4.988,4.631,4.377,9.076c-3.918,28.457-18.492,48.818-45.895,58.133
+    		C63.12,105.628,38.895,99.21,19.038,78.81C4.255,63.618-0.941,44.7,0.833,22.772z"/>
+    </svg>
+
+
+    <img class="logo-upper-final" src="../Home/logo-upper.svg">
+    <img class="logo-lower-final" src="../Home/logo-lower.svg">
+
+    <!-- Animation Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="animation.js"></script>
+</body>
+
+
+</html>
