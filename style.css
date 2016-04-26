@@ -11,12 +11,14 @@
 }
 
 .logo-upper {
+	/*display: none;*/
 	position: absolute;
 	top: 0px;
 	left: 0px;
 }
 
 .logo-lower {
+	/*display: none;*/
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
@@ -25,6 +27,8 @@
 .logo-upper-final {
 	display: none;
 	position: absolute;
+	height: auto;
+	width: 5%;
 	top: 45%;
 	left: 50%;
 	padding-bottom: 92px;
@@ -36,6 +40,8 @@
 .logo-lower-final {
 	display: none;
 	position: absolute;
+	height: auto;
+	width: 5%;
 	top: 45%;
 	left: 50%;
 	padding-top: 92px;

@@ -1,6 +1,25 @@
 var x = $(window).width(),
     y = $(window).height();
 
+
+// This will execute whenever the window is resized
+$(window).resize(function() {
+  x = $(window).width();
+  y = $(window).height();
+  console.log(x); // New height
+  console.log(y); // New width
+  TweenMax.to(".logo-upper", 0.5, {
+      x:x/2-82,
+      y:y/2-107
+  });
+
+  TweenMax.to(".logo-lower", 0.5, {
+    x:-x/2+81.5,
+    y:-y/2+108.5
+    });
+
+});
+
 var rotation = 3600;
 
 TweenMax.to(".logo-upper", 3, {
